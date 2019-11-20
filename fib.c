@@ -37,7 +37,10 @@ int fibmax(int num)
         d = e;
         e = f;
         counter++;
+        if(f <= num)
+        {
         fib2[counter-1] = f;
+        }
     }
     
 }
@@ -67,6 +70,7 @@ int main()
         {
             printf("%d, ", fib2[k]);
         }
+        printf("\nThe last 0 marks the end of the series. Ignore it");
     }
     else
     {
