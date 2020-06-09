@@ -1,8 +1,4 @@
 /*
-TITLE:        Fibonacci series in C
-Contributor:  Collins Upendo, Alias: TechniCollins
-              University of Nairobi
-              2019
 Initialize a to 0 and b to 1 because 
 the first two terms of the series are 
 0 and 1 respectively. c adds the two numbers
